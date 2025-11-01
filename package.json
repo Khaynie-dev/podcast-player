@@ -1,0 +1,25 @@
+{
+  "name": "podcast-player",
+  "version": "1.0.0",
+  "description": "Podcast player to listen to podcast",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khaynie-dev/podcast-player.git"
+  },
+  "author": "Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khaynie-dev/podcast-player/issues"
+  },
+  "homepage": "https://github.com/Khaynie-dev/podcast-player#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}
